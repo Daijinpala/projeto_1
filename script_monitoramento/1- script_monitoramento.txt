@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Configurações
+SITE_URL="http://44.202.123.130/" > ipv4 publico ou hostname do site
+LOG_FILE="/var/log/monitoramento.log" > arquivo que será mandado os logs
+DISCORD_WEBHOOK="https://discord.com/api/webhooks/1338985520595865651/Y1bsJG0np_eZU1GBCVqn_knbABENvro1y5Zn3Ze8xSQ_koX5SaXPzyChVNzPo3rvgZBZ" > o meu webhook do discord (link)
+
+#Registrar os logs
+log() {
+    local message="$1"
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - $message" >> "$LOG_FILE"
+}
+
+#Enviar a notificação no Discord
+notificar_discord() {
+    local message="$1"
+    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"$message\"}" "$DISCORD_WEBHOOK"
+}
+
+# Verifica se o site está disponível
+response=$(curl -o /dev/null -s -w "%{http_code}" "$SITE_URL")
+
+if [[ "$response" -eq 200 ]]; then
+    log "Site $SITE_URL está online. Código de resposta: $response"
+else
+    log "Site $SITE_URL está offline. Código de resposta: $response"
+    notificar_discord "🚨 ALERTA: O site $SITE_URL está offline! Código de resposta: $response"
+fi

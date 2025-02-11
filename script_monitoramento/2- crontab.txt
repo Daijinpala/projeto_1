@@ -1,0 +1,21 @@
+transformar o arquivo de monitoramento em um executável:
+
+chmod +x ward.sh
+
+abrir o crontab:
+
+crontab -e
+
+selecionar o editor de texto que mais te agrada! (no meu caso foi o nano), na ultima linha do arquivo adicionar o script criado anteriormente:
+
+*/1 * * * * /var/www/html/ward.sh 
+
+*: campos que deixei em branco
+
+/1: quantidade de minutos para executar o script
+
+/var/www/html/ward.sh o caminho para o executável que criei anteriormente
+
+sucesso! caso queira testar o script:
+
+./ward.sh (tem que estar na pasta do arquivo) 

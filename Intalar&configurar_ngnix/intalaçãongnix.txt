@@ -1,0 +1,19 @@
+buscar e instalar atualizações:
+
+sudo apt update
+
+sudo apt upgrade -y
+
+fazer a instalação do ngnix: 
+
+sudo apt install nginx
+
+verificar se ele está ativo:
+
+sudo systemctl status nginx
+
+para alterar a pagina da web:
+
+cd var/www/html/index.html......
+
+edita o arquivo e seja feliz!!
