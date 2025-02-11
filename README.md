@@ -4,12 +4,12 @@
 
 <p align="center">Principais Etapas:</p>
 
-<p align="center">1- Configuração do Ambiente</p>
+<p align="center">1- Configuração do Ambiente.</p>
 
-<p align="center">2- Configuração do Servidor</p>
+<p align="center">2- Configuração do Servidor.</p>
 
-<p align="center">3- Monitoramento e Notificações</p>
+<p align="center">3- Monitoramento e Notificações.</p>
 
-<p align="center">4- Automação e Testes</p>
+<p align="center">4- Automação e Testes.</p>
 
-<p align="center">5- Desafios Bônus</p>
+<p align="center">5- Desafios Bônus.</p>
