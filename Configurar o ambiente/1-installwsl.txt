@@ -1,0 +1,21 @@
+instalei o wsl e o ubuntu 24.04 pela Microsoft store
+
+entrei no visual code e baixei a extensão remote wsl
+
+cliquei lá em baixo no sinal de ><
+
+coloquei para fazer login e entrei no wsl
+
+tive que mover a chave da minha Ec2 para o wsl:
+
+
+
+Entrar no wsl e acessar o dektop do pc:
+
+cd /mnt/c/Users/daiji/Desktop/
+
+Após isso mover a chave para o wsl:
+
+mv chavew11.pem /home/daiji/
+
+sucesso
