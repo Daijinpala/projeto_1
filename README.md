@@ -13,3 +13,5 @@
 <p align="center">4- Automação e Testes.</p>
 
 <p align="center">5- Desafios Bônus.</p>
+
+<p align="center">O projeto inteiro está zipado, abrir com o obsidian para ter uma melhor vizualização!</p>
