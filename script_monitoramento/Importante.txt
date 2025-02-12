@@ -1,0 +1,3 @@
+Após a criação do arquivo de monitoramento transformar ele em um executável:
+
+chmod +x nome_do_arquivo.sh
