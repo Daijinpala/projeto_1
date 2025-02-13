@@ -2,4 +2,4 @@ para realizar o teste tem dois jeitos:
 
 Desligar a maquina e quando iniciar ela estará com um novo ip (se não tiver com o ip elástico)
 
-Desligar o serviço do nginx e ver a magica acontecer.
+Desligar o serviço do nginx e ver a magica acontecer(sudo systemctl stop nginx).
