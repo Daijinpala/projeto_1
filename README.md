@@ -420,16 +420,20 @@ Acesse o repositório do projeto no GitHub para ver a documentação completa e 
 <br>
 
 <details align="left">
-    <summary style="color: #9400D3;">Estrutura GitHub (desatualizado)</summary>
+    <summary style="color: #9400D3;">Estrutura GitHub </summary>
 
 ```
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap" rel="stylesheet">
+
 <font face="sans-serif"> 
 <h1 align="center" style="color: Black;">Configuração de Servidor Web com Monitoramento</h1>
 <p align="center">Este projeto tem como objetivo configurar um servidor web na AWS utilizando Nginx, implementar uma página HTML simples e criar um sistema de monitoramento com notificações em caso de indisponibilidade.</p>
 
 <div>
 <details>
-    <summary>Projeto</summary>
+    <summary style="color: #9400D3; ">Projeto</summary>
 <div>
 
 <h3 style="color: purple;">Parte teorica</h2>
@@ -614,19 +618,20 @@ na AWS.</li>
 
 ## Resolução:
 <div>
-  <a href="https://github.com/Daijinpala/projeto_1/tree/main/Configurar%20o%20ambiente" style="display: inline-block; background-color:rgb(0, 0, 0); color: white; padding: 10px 5px; text-align: center; text-decoration: none; font-size: 12px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">1- Configuração do Ambiente</a>
-  <a href="https://github.com/Daijinpala/projeto_1/tree/main/Intalar%26configurar_ngnix" style="display: inline-block; background-color:rgb(0, 0, 0); color: white; padding: 10px 5px; text-align: center; text-decoration: none; font-size: 12px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">2- Configuração do Servidor</a>
-  <a href="https://github.com/Daijinpala/projeto_1/tree/main/script_monitoramento" style="display: inline-block; background-color:rgb(0, 0, 0); color: white; padding: 10px 5px; text-align: center; text-decoration: none; font-size: 12px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">3- Monitoramento e Notificações</a>
-  <a href="https://github.com/seu-usuario/seu-repositorio/tree/main/pasta4" style="display: inline-block; background-color:rgb(0, 0, 0); color: white; padding: 10px 5px; text-align: center; text-decoration: none; font-size: 12px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">4- Automação e Testes.</a>
-  <a href="https://github.com/Daijinpala/projeto_1/tree/main/testar%26validar" style="display: inline-block; background-color:rgb(0, 0, 0); color: white; padding: 10px 5px; text-align: center; text-decoration: none; font-size: 12px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">5- Desafios Bônus.</a>
-</div>
 
-
+<div align="center">
+<br>
+  <a href="https://github.com/Daijinpala/projeto_1/tree/main/Configurar%20o%20ambiente"><kbd> <br>Configuração do Ambiente<br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/Daijinpala/projeto_1/tree/main/Intalar%26configurar_ngnix"><kbd> <br>Configuração do Servidor<br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/Daijinpala/projeto_1/tree/main/script_monitoramento"><kbd> <br>Monitoramento e Notificações<br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/Daijinpala/projeto_1/tree/main/testar%26validar"><kbd> <br>Automação e Testes<br> </kbd></a>&ensp;&ensp;
+  <a href=""><kbd> <br>Bonus<br> </kbd></a>&ensp;&ensp;
 <br>
 
-<details>
-    <summary>Estrutura do site HTML:</summary>
-
+<br><br>
+<details align="left">
+    <summary style="color: #9400D3;">Estrutura do site HTML:</summary>
+    
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -833,7 +838,12 @@ Acesse o repositório do projeto no GitHub para ver a documentação completa e 
 </footer>
 </body>
 </html>
+
 </details>
+
+<br>
+
+<br>
 
 ## Sites utilizados como referencia:
 
@@ -847,7 +857,24 @@ Acesse o repositório do projeto no GitHub para ver a documentação completa e 
 
 >Solução de problemas: https://stackexchange.com/
 
+>Exportação da fonte:  https://fonts.google.com/ 
+
 <p align="center">O projeto inteiro está zipado, abrir com o obsidian para ter uma melhor vizualização!</p>
+</font>
+
+<h2 align="center">Integrantes:</h2>
+
+<font face="Ballet" style="color: #9400D3;">
+<footer>
+<p style = 'font-size:60px'>
+Flávio Cavalcante
+<br>
+Bruno Bacchi
+<br>
+Afonso Luiz
+<br>
+</p>
+</footer>
 </font>
 ```
 
