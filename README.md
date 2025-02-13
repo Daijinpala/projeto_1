@@ -894,7 +894,9 @@ Afonso Luiz
 
 >Solução de problemas: https://stackexchange.com/
 
->Exportação da fonte:  https://fonts.google.com/ 
+>Exportação da fonte:  https://fonts.google.com/
+
+>tutorial terraform(base):https://www.youtube.com/watch?v=bIPF_hzmQGE&list=PLWQmZVQayUUIgSmOj3GPH2BJcn0hOzIaP&index=2&ab_channel=CleberGasparoto
 
 <p align="center">O projeto inteiro está zipado, abrir com o obsidian para ter uma melhor vizualização!</p>
 </font>
