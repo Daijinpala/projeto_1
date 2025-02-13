@@ -631,7 +631,7 @@ na AWS.</li>
 <br><br>
 <details align="left">
     <summary style="color: #9400D3;">Estrutura do site HTML:</summary>
-    
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -904,11 +904,12 @@ Afonso Luiz
 <font face="Ballet" style="color: #9400D3;">
 <footer>
 <p style = 'font-size:60px'>
-Flávio Cavalcante
+<br>
+Afonso Luiz
 <br>
 Bruno Bacchi
 <br>
-Afonso Luiz
+Flávio Cavalcante
 <br>
 </p>
 </footer>
