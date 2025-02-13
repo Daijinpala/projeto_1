@@ -420,7 +420,7 @@ Acesse o repositório do projeto no GitHub para ver a documentação completa e 
 <br>
 
 <details align="left">
-    <summary style="color: #9400D3;">Estrutura GitHub </summary>
+    <summary style="color: #9400D3;">Estrutura GitHub: </summary>
 
 ```
 <link rel="preconnect" href="https://fonts.googleapis.com">
