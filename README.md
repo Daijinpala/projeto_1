@@ -1,35 +1,14 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap" rel="stylesheet">
-</head>
-<body>
-  <style>
-    footer {
-      font-family: 'Ballet';
-      font-size: 40px;
-      color: #8A2BE2;
-      text-align: center;
-      padding: 20px;
-    }
-    summary {
-      font-family: 'sans-serif';
-      font-size: 25px;
-      color: #8A2BE2;
-      text-align: left;
-      padding: 20px;
-    }
-  </style>
-  
+
 <font face="sans-serif"> 
 <h1 align="center" style="color: Black;">Configuração de Servidor Web com Monitoramento</h1>
 <p align="center">Este projeto tem como objetivo configurar um servidor web na AWS utilizando Nginx, implementar uma página HTML simples e criar um sistema de monitoramento com notificações em caso de indisponibilidade.</p>
 
 <div>
 <details>
-    <summary>Projeto</summary>
+    <summary style="color: #9400D3; ">Projeto</summary>
 <div>
 
 <h3 style="color: purple;">Parte teorica</h2>
@@ -220,13 +199,13 @@ na AWS.</li>
   <a href="https://github.com/Daijinpala/projeto_1/tree/main/Configurar%20o%20ambiente"><kbd> <br>Configuração do Ambiente<br> </kbd></a>&ensp;&ensp;
   <a href="https://github.com/Daijinpala/projeto_1/tree/main/Intalar%26configurar_ngnix"><kbd> <br>Configuração do Servidor<br> </kbd></a>&ensp;&ensp;
   <a href="https://github.com/Daijinpala/projeto_1/tree/main/script_monitoramento"><kbd> <br>Monitoramento e Notificações<br> </kbd></a>&ensp;&ensp;
-  <a href="https://github.com/Daijinpala/projeto_1/tree/main/testar%26validar"><kbd> <br>Automação e Testes.<br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/Daijinpala/projeto_1/tree/main/testar%26validar"><kbd> <br>Automação e Testes<br> </kbd></a>&ensp;&ensp;
   <a href=""><kbd> <br>Bonus<br> </kbd></a>&ensp;&ensp;
 <br>
 
 <br><br>
-<details>
-    <summary>Estrutura do site HTML:</summary>
+<details align="left">
+    <summary style="color: #9400D3;">Estrutura do site HTML:</summary>
 
 ```
 <!DOCTYPE html>
@@ -438,8 +417,10 @@ Acesse o repositório do projeto no GitHub para ver a documentação completa e 
 ```
 </details>
 
-<details>
-    <summary>Estrutura gitghub</summary>
+<br>
+
+<details align="left">
+    <summary style="color: #9400D3;">Estrutura GitHub (desatualizado)</summary>
 
 ```
 <font face="sans-serif"> 
@@ -872,6 +853,8 @@ Acesse o repositório do projeto no GitHub para ver a documentação completa e 
 
 </details>
 
+<br>
+
 ## Sites utilizados como referencia:
 
 > Básico shell: https://diegomariano.com/shell-script-um-guia-basico/<p></p>
@@ -891,13 +874,15 @@ Acesse o repositório do projeto no GitHub para ver a documentação completa e 
 
 <h2 align="center">Integrantes:</h2>
 
+<font face="Ballet" style="color: #9400D3;">
 <footer>
+<p style = 'font-size:60px'>
 Flávio Cavalcante
 <br>
 Bruno Bacchi
 <br>
 Afonso Luiz
 <br>
+</p>
 </footer>
-</body>
-</html>
+</font>
