@@ -1,0 +1,28 @@
+Aviso: Estou utilizando o Windows 11 com o wsl rodando no vscode!!!
+
+Primeiro passo: baixei o cli da aws na minha wsl comando:
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+
+Tive que baixar o unzip pois não tinha instalado por padrão na maquina, comando:
+
+sudo apt update
+sudo apt install unzip
+
+Baixei o terraform via linha de comando(no site principal deles te disponibilizam o link)
+
+wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install terraform
+
+Após isso criei um usuário no console da aws chamado "terraform" atribui o acesso de admin a ele e criei uma chave de acesso, baixei o csv pra prevenir possíveis dores de cabeça, abri o console da minha wsl e configurei o acesso dá aws(comando: aws configure           após digitar o comando é só colocar a acess key e a secret do usuário que criou anteriormente(no meu caso o nome era terraform) e por fim na configuração colocar a zona us-east-1)
+
+Após isso, abri o site terraform.io, fui em registry cliquei na aws, selecionei os documentos, copiei o que eu quis criar!
+
+após criar uma pasta e dentro dela criar meu primeiro arquivo(criei um arquivo chamado main.tf e dentro dele coloquei o script de criação do que eu queria), dei o comando:
+
+terraform init
+
+ele criou um arquivo dentro da pasta que não é necessario.
