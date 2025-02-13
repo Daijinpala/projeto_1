@@ -1,0 +1,7 @@
+html:
+
+/usr/share/nginx/html/index.html
+
+script:
+
+MONITOR_SCRIPT="/usr/local/bin/monitor.sh"
