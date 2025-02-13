@@ -22,7 +22,7 @@
       padding: 20px;
     }
   </style>
-</body>
+  
 <font face="sans-serif"> 
 <h1 align="center" style="color: Black;">Configuração de Servidor Web com Monitoramento</h1>
 <p align="center">Este projeto tem como objetivo configurar um servidor web na AWS utilizando Nginx, implementar uma página HTML simples e criar um sistema de monitoramento com notificações em caso de indisponibilidade.</p>
@@ -224,6 +224,7 @@ na AWS.</li>
   <a href=""><kbd> <br>Bonus<br> </kbd></a>&ensp;&ensp;
 <br>
 
+<br><br>
 <details>
     <summary>Estrutura do site HTML:</summary>
 
