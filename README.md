@@ -8,7 +8,7 @@
 
 <div>
 <details>
-    <summary style="color: #9400D3; ">Projeto</summary>
+    <summary style="color: #9400D3; ">Projeto: </summary>
 <div>
 
 <h3 style="color: purple;">Parte teorica</h2>
