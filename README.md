@@ -402,7 +402,7 @@ Criar uma documentação no GitHub explicando:
 <img src="teste3.png" alt="Teste 3">
 <div class="tips">
 <p><strong>Repositório do GitHub:</strong></p>
-p>
+<p>
 Acesse o repositório do projeto no GitHub para ver a documentação completa e o código-fonte:
 <a href="https://github.com/Daijinpala/projeto_1.git" target="_blank">GitHub - Projeto 1</a>
 </p>
