@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Configurações
-SITE_URL="http://44.202.123.130/" > ipv4 publico ou hostname do site
-LOG_FILE="/var/log/monitoramento.log" > arquivo que será mandado os logs
-DISCORD_WEBHOOK="https://discord.com/api/webhooks/1338985520595865651/Y1bsJG0np_eZU1GBCVqn_knbABENvro1y5Zn3Ze8xSQ_koX5SaXPzyChVNzPo3rvgZBZ" > o meu webhook do discord (link)
+SITE_URL="http://44.202.123.130/" #ipv4 publico ou hostname do site
+LOG_FILE="/var/log/monitoramento.log" #arquivo que será mandado os logs
+DISCORD_WEBHOOK="https://discord.com/api/webhooks/1338985520595865651/Y1bsJG0np_eZU1GBCVqn_knbABENvro1y5Zn3Ze8xSQ_koX5SaXPzyChVNzPo3rvgZBZ" #o meu webhook do discord (link)
 
 #Registrar os logs
 log() {
