@@ -21,7 +21,6 @@ Enviar uma notificação via Discord, Telegram ou Slack se detectar indisponibil
 
 ```
 #!/bin/bash
-#SITE_URL="http://44.202.123.130/"
 
 # Configurações
 SITE_URL="http://localhost" #ipv4 publico ou hostname do site
