@@ -34,6 +34,8 @@ futuras expansões).</li>
 <li> Escolher uma AMI baseada em
 Linux (Ubuntu/Debian/Amazon
 Linux).</li>
+
+![criação_vpc](ubu.png)
 <li>Instalar na sub-rede pública
 criada anteriormente.</li>
 
