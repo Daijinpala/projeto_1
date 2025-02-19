@@ -11,7 +11,7 @@
 > Para alterar a pagina padrão do ngnix acesse:<br>**cd var/www/html/index.html**
 
 > [!WARNING]
-> Para enviar as imagens caso utilize elas no html.<br>**UBUNTU**: scp -i /home/daiji/chavew11.pem /home/daiji/2.3.png /home/daiji/3.png ubuntu@ec2-44-202-123-130.compute-1.amazonaws.com:/var/www/html/ <br><br> **LINUX**: scp -i /home/daiji/chavew11.pem /home/daiji/img/1.png /home/daiji/img/2.1.png /home/daiji/img/2.2.png /home/daiji/img/2.3.png /home/daiji/img/3.png /home/daiji/img/4.1.png /home/daiji/img/4.2.png /home/daiji/img/teste1.png /home/daiji/img/teste2.png /home/daiji/img/teste3.png  ec2-user@ec2-3-82-154-220.compute-1.amazonaws.com:/usr/share/nginx/html/<br><br>Importante salientar que pra mover as imagens diretamente aonde está o html você tera que dar as permissões **777** para a pasta.
+> Para enviar as imagens caso utilize elas no html: <br>**UBUNTU**: scp -i /home/daiji/chavew11.pem /home/daiji/2.3.png /home/daiji/3.png ubuntu@ec2-44-202-123-130.compute-1.amazonaws.com:/var/www/html/ <br><br> **LINUX**: scp -i /home/daiji/chavew11.pem /home/daiji/img/1.png /home/daiji/img/2.1.png /home/daiji/img/2.2.png /home/daiji/img/2.3.png /home/daiji/img/3.png /home/daiji/img/4.1.png /home/daiji/img/4.2.png /home/daiji/img/teste1.png /home/daiji/img/teste2.png /home/daiji/img/teste3.png  ec2-user@ec2-3-82-154-220.compute-1.amazonaws.com:/usr/share/nginx/html/<br><br>Importante salientar que pra mover as imagens diretamente aonde está o html você tera que dar as permissões **777** para a pasta.
 
 <details align="left">
     <summary style="color: #9400D3;">Estrutura do site HTML:</summary>
