@@ -11,7 +11,7 @@
     <summary style="color: #9400D3; ">Projeto: </summary>
 <div>
 
-<h3 style="color: purple;">Parte teorica</h2>
+<h3 style="color: purple;">Parte teórica</h2>
 
 <ol>
 <li>Cite 3 exemplos de
