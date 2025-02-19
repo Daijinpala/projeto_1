@@ -1,7 +1,7 @@
 # Configuração do Monitoramento e notificação
 
 > [!IMPORTANT]
-> foi utilizado o bash na criação do script e o crontab para a loop do script; É possivel utilizar outros meios de criação como o a linguagem Python e systemd para o loop.
+> foi utilizado o bash na criação do script e o crontab para a loop do script; É possivel utilizar outros meios de criação como a linguagem Python e systemd para o loop.
 
 1) Criar um script em Bash ou Python para monitorar a disponibilidade do site.
 
