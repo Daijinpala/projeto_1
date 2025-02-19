@@ -9,7 +9,7 @@
 5) Tive que mover a chave da minha Ec2 para o wsl.
 
 > [!NOTE]
-> Como foi feito para mover a chave ?<br><br>Entrar no wsl e acessar a area de trabalho do windows:<br>**cd /mnt/c/Users/usuario_windows/Desktop/**<br>Após isso mover a chave para o wsl:<br>**mv chavew.pem /home/usuario_linux/**
+> Como foi feito para mover a chave ?<br><br>Entrar no wsl e acessar a area de trabalho do windows:<br>**cd /mnt/c/Users/usuario_windows/Desktop/**<br>Após isso mover a chave para o wsl:<br>**mv chave.pem /home/usuario_linux/**
 
 ## Configuração do Ambiente (aws)
 
