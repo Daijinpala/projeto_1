@@ -885,15 +885,15 @@ Afonso Luiz
 
 ## Sites utilizados como referencia:
 
-> Básico shell: https://diegomariano.com/shell-script-um-guia-basico/<p></p>
-> GODSCRIPT: https://devhints.io/bash<p></p>
->Discord Webhooks: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
->Fontes de letra: https://www.futuraexpress.com.br/blog/fontes-de-letras-diferentes/
->Solução de problemas: https://stackexchange.com/
->Exportação da fonte:  https://fonts.google.com/
->tutorial terraform(base):https://www.youtube.com/watch?v=bIPF_hzmQGE&list=PLWQmZVQayUUIgSmOj3GPH2BJcn0hOzIaP&index=2&ab_channel=CleberGasparoto
->comando curl(base):https://www.hostinger.com.br/tutoriais/comando-curl-linux 
->sintaxe(base): https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+> Básico shell: https://diegomariano.com/shell-script-um-guia-basico/<br>
+> GODSCRIPT: https://devhints.io/bash<br>
+>Discord Webhooks: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks<br>
+>Fontes de letra: https://www.futuraexpress.com.br/blog/fontes-de-letras-diferentes/<br>
+>Solução de problemas: https://stackexchange.com/<br>
+>Exportação da fonte:  https://fonts.google.com/<br>
+>tutorial terraform(base):https://www.youtube.com/watch?v=bIPF_hzmQGE&list=PLWQmZVQayUUIgSmOj3GPH2BJcn0hOzIaP&index=2&ab_channel=CleberGasparoto<br>
+>comando curl(base):https://www.hostinger.com.br/tutoriais/comando-curl-linux <br>
+>sintaxe(base): https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax<br>
 
 <p align="center">O projeto inteiro está zipado, abrir com o obsidian para ter uma melhor vizualização!</p>
 </font>
