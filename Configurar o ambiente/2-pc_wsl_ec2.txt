@@ -13,7 +13,9 @@ mv 2.3.png 3.png /home/daiji/
 
 enviar as imagens para a ec2:
 
-scp -i /home/daiji/chavew11.pem /home/daiji/2.3.png /home/daiji/3.png ubuntu@ec2-44-202-123-130.compute-1.amazonaws.com:/home/ubuntu/images/
+ubuntu: scp -i /home/daiji/chavew11.pem /home/daiji/2.3.png /home/daiji/3.png ubuntu@ec2-44-202-123-130.compute-1.amazonaws.com:/home/ubuntu/images/
+
+linux: scp -i /home/daiji/chavew11.pem /home/daiji/img/1.png /home/daiji/img/2.1.png /home/daiji/img/2.2.png /home/daiji/img/2.3.png /home/daiji/img/3.png /home/daiji/img/4.1.png /home/daiji/img/4.2.png /home/daiji/img/teste1.png /home/daiji/img/teste2.png /home/daiji/img/teste3.png  ec2-user@ec2-3-82-154-220.compute-1.amazonaws.com:/home/ubuntu/images/
 
 Acessar diretorio que estão as imagens recem movidas:
 
