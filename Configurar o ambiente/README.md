@@ -52,7 +52,7 @@ realizar configurações futuras.</h6>
 </div>
 
 <details align="left">
-    <summary style="color: #9400D3;">Estrutura do readme.mdL:</summary>
+    <summary style="color: #9400D3;">Estrutura do readme.md:</summary>
 
 ```
 # Configurando o ambiente.
