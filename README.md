@@ -196,6 +196,7 @@ na AWS.</li>
 
 <div align="center">
 <br>
+  <a href="https://github.com/Daijinpala/projeto_1/tree/main/Apresenta%C3%A7%C3%A3o"><kbd> <br>Parte Teórica<br> </kbd></a>&ensp;&ensp; 
   <a href="https://github.com/Daijinpala/projeto_1/tree/main/Configurar%20o%20ambiente"><kbd> <br>Configuração do Ambiente<br> </kbd></a>&ensp;&ensp;
   <a href="https://github.com/Daijinpala/projeto_1/tree/main/Intalar%26configurar_ngnix"><kbd> <br>Configuração do Servidor<br> </kbd></a>&ensp;&ensp;
   <a href="https://github.com/Daijinpala/projeto_1/tree/main/script_monitoramento"><kbd> <br>Monitoramento e Notificações<br> </kbd></a>&ensp;&ensp;
