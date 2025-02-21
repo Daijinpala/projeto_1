@@ -194,7 +194,7 @@ na AWS.</li>
 </details>
 <hr>
 
-# Aplicações utilizadas
+## Aplicações utilizadas
 <h2>Github, Amazon Web Services, Microsoft Store, WSL, Visual Studio Code, Nginx.</h2>
 
 <div align="center">
@@ -240,7 +240,7 @@ na AWS.</li>
 > - **Visual Studio Code:** Utilizado como editor de código e terminal.
 > - **Nginx:** Utilizado como servidor web.
 
-# Linguagens utilizadas
+## Linguagens utilizadas
 
 <h2>Bash, Markdown.</h2>
 
