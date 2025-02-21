@@ -262,8 +262,8 @@ na AWS.</li>
 > Você pode utilizar a linguagem python ao invés de bash. 
 
 > [!TIP]
-> - **Bash:** Bash é uma linguagem de script e um interpretador de comandos.
-> - **Markdown:** Markdown é uma linguagem de marcação leve.
+> - **Bash:** É uma linguagem de script e um interpretador de comandos.
+> - **Markdown:** É uma linguagem de marcação leve.
 
  <br>
 </div>
