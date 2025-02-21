@@ -222,9 +222,8 @@ na AWS.</li>
   <a href="https://nginx.org/">
     <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/nginxlogo.png" alt="Nginx" width="150" height = "150">
   </a>&ensp;
-
-  <br>
 </div>
+<br><br>
 
 >[!IMPORTANT]
 >As unicas aplicações especificas que se pede a utilização no projeto é o GitHub e o Amazon Web Services, as outras foram questão de preferencia!
