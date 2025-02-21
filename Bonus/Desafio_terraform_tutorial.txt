@@ -19,7 +19,7 @@ sudo apt update && sudo apt install terraform
 
 Após isso criei um usuário no console da aws chamado "terraform" atribui o acesso de admin a ele e criei uma chave de acesso, baixei o csv pra prevenir possíveis dores de cabeça, abri o console da minha wsl e configurei o acesso dá aws(comando: aws configure           após digitar o comando é só colocar a acess key e a secret do usuário que criou anteriormente(no meu caso o nome era terraform) e por fim na configuração colocar a zona us-east-1)
 
-Após isso, abri o site terraform.io, fui em registry cliquei na aws, selecionei os documentos, copiei o que eu quis criar!
+Após isso, abri o site terraform.io, fui em registry cliquei na aws, selecionei os documentos, apliquei as necessidades do projeto!
 
 após criar uma pasta e dentro dela criar meu primeiro arquivo(criei um arquivo chamado main.tf e dentro dele coloquei o script de criação do que eu queria), dei o comando:
 
