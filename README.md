@@ -1,8 +1,3 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap" rel="stylesheet">
-
-<font face="sans-serif"> 
 <h1 align="center" style="color: Black;">Configuração de Servidor Web com Monitoramento</h1>
 <p align="center">Este projeto tem como objetivo configurar um servidor web na AWS utilizando Nginx, implementar uma página HTML simples e criar um sistema de monitoramento com notificações em caso de indisponibilidade.</p>
 
@@ -304,4 +299,3 @@ Flávio Cavalcante
 <br>
 </p>
 </footer>
-</font>
