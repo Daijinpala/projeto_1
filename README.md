@@ -242,7 +242,7 @@ na AWS.</li>
 
 <h2>Bash, Markdown.</h2>
 
-<div align="center">
+<div align="left">
   <br>
   <a href="https://www.gnu.org/software/bash/">
     <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/bashlogo.jpeg" alt="Bash" width="150" height = "150">
