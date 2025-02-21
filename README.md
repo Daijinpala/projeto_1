@@ -279,6 +279,7 @@ na AWS.</li>
   <a href="https://github.com/Daijinpala/projeto_1/tree/main/testar%26validar"><kbd> <br>Automação e Testes<br> </kbd></a>&ensp;
   <a href="https://github.com/Daijinpala/projeto_1/tree/main/Bonus"><kbd> <br>Bonus<br> </kbd></a>&ensp;
 <br>
+</div>
 
 > [!NOTE]
 > Cada botão te levará para a resolução de uma determinada parte do projeto de mesmo nome! 
