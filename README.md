@@ -225,11 +225,16 @@ na AWS.</li>
 </div>
 <br><br>
 
->[!IMPORTANT]
->As unicas aplicações especificas que se pede a utilização no projeto é o GitHub e o Amazon Web Services, as outras foram questão de preferencia!
+> [!IMPORTANT]
+> As únicas aplicações específicas que se pede a utilização no projeto são o **GitHub** e o **Amazon Web Services**. As outras foram questão de preferência!
 
->[!TIP]
->Github: Utilizado para a documentação<br> Amazon Web Services: Criação da infraestrutura de TI<br> Microsoft Store: Utilizado para baixar o wsl e o ubuntu 24.04<br> WSL: Permite executar um ambiente Linux diretamente no sistema operacional Windows<br> Visual Studio Code: Utilizado como editor de código e terminal<br> Nginx: Utilizado como servidor web<br>
+> [!TIP]
+> - **GitHub:** Utilizado para a documentação do projeto.
+> - **Amazon Web Services (AWS):** Utilizado para a criação da infraestrutura de TI.
+> - **Microsoft Store:** Utilizado para baixar o WSL e o Ubuntu 24.04.
+> - **WSL (Windows Subsystem for Linux):** Permite executar um ambiente Linux diretamente no sistema operacional Windows.
+> - **Visual Studio Code:** Utilizado como editor de código e terminal.
+> - **Nginx:** Utilizado como servidor web.
 
 # Linguagens utilizadas
 
