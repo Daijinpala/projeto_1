@@ -200,22 +200,29 @@ na AWS.</li>
   <a href="https://github.com/">
     <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/gitlogo.png" alt="GitHub" width="150">
   </a>&ensp;
+
   <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjKuL74ltWLAxXoEUQIHY40KqwYABAAGgJkeg&co=1&ase=2&gclid=CjwKCAiA5eC9BhAuEiwA3CKwQp-uZ-EhfKVs_yaTVCZmvhF8olLyCz4sF_rQXc-KTkKjJ6zjkq_KbRoCmx0QAvD_BwE&ei=46i4Z7zJLbLb5OUP_NnOYQ&ohost=www.google.com&cid=CAESVeD2mSl7f0Xe0yyJImaMygYDsAuUvVqE8TXk7HbEuO8df6HhHkyj13nbeuQIUd6NDilzCovM3hpvmJWnXIKlBj1rDcr0Uva9DVYGZCTyi2T-YG-tn0A&sig=AOD64_3dqO5hHHx21zCm5ROWF8TSPV62pA&q&sqi=2&nis=4&adurl&ved=2ahUKEwj8xrT4ltWLAxWyLbkGHfysMwwQ0Qx6BAgIEAE">
     <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/amazonlogo.png" alt="Amazon Web Services
 " width="150">
   </a>&ensp;
-  <a href="https://github.com/Daijinpala/projeto_1/tree/main/Intalar%26configurar_ngnix">
-    <img src="caminho/para/imagem3.png" alt="Configuração do Servidor" width="150">
+
+ <a href="https://apps.microsoft.com/home?hl=pt-BR&gl=BR">
+    <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/micstorelogo.png" alt="Microsoft Store
+" width="150">
   </a>&ensp;
-  <a href="https://github.com/Daijinpala/projeto_1/tree/main/script_monitoramento">
-    <img src="caminho/para/imagem4.png" alt="Monitoramento e Notificações" width="150">
+
+  <a href="https://www.microsoft.com/store/productId/9P9TQF7MRM4R?ocid=libraryshare">
+    <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/wsllogo.png" alt="WSL" width="150">
   </a>&ensp;
-  <a href="https://github.com/Daijinpala/projeto_1/tree/main/testar%26validar">
-    <img src="caminho/para/imagem5.png" alt="Automação e Testes" width="150">
+ 
+  <a href="https://code.visualstudio.com/">
+    <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/vscodelogo.png" alt="Visual Studio Code" width="150">
   </a>&ensp;
-  <a href="https://github.com/Daijinpala/projeto_1/tree/main/Bonus">
-    <img src="caminho/para/imagem6.png" alt="Bonus" width="150">
+
+  <a href="https://nginx.org/">
+    <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/nginxlogo.png" alt="Nginx" width="150">
   </a>&ensp;
+
   <br>
 </div>
 
