@@ -303,14 +303,14 @@ na AWS.</li>
 
 <h2 align="center">Integrantes:</h2>
 <font face="Ballet" style="color: #9400D3;">
-<footer align="center">
+<footer>
 <p style = 'font-size:60px'>
 <br>
-Afonso Luiz
+<p align="center">Afonso Luiz</p>
 <br>
-Bruno Bacchi
+<p align="center">Bruno Bacchi</p>
 <br>
-Flávio Cavalcante
+<p align="center">Flávio Cavalcante</p>
 <br>
 </p>
 </footer>
