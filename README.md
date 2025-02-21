@@ -193,21 +193,17 @@ na AWS.</li>
 <br>
 
 # Aplicações utilizadas
-
+<h2>Github  Amazon Web Services     Microsoft Store     WSL     Visual Studio Code      Nginx</h2>
 
 <div align="center">
   <br>
   <a href="https://github.com/">
     <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/gitlogo.png" alt="GitHub" width="150">
-     <p><GitHub/p>
-      <hr>
   </a>&ensp;
 
   <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjKuL74ltWLAxXoEUQIHY40KqwYABAAGgJkeg&co=1&ase=2&gclid=CjwKCAiA5eC9BhAuEiwA3CKwQp-uZ-EhfKVs_yaTVCZmvhF8olLyCz4sF_rQXc-KTkKjJ6zjkq_KbRoCmx0QAvD_BwE&ei=46i4Z7zJLbLb5OUP_NnOYQ&ohost=www.google.com&cid=CAESVeD2mSl7f0Xe0yyJImaMygYDsAuUvVqE8TXk7HbEuO8df6HhHkyj13nbeuQIUd6NDilzCovM3hpvmJWnXIKlBj1rDcr0Uva9DVYGZCTyi2T-YG-tn0A&sig=AOD64_3dqO5hHHx21zCm5ROWF8TSPV62pA&q&sqi=2&nis=4&adurl&ved=2ahUKEwj8xrT4ltWLAxWyLbkGHfysMwwQ0Qx6BAgIEAE">
     <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/amazonlogo.png" alt="Amazon Web Services
 " width="150" height = "150">
-  <p>Amazon Web Services</p>
-       <hr>
   </a>&ensp;
 
  <a href="https://apps.microsoft.com/home?hl=pt-BR&gl=BR">
