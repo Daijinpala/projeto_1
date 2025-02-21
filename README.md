@@ -195,17 +195,28 @@ na AWS.</li>
 # Aplicações utilizadas
 
 
-<div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
-<div style="text-align: center;">
-<a href="https://github.com/">
-<img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/gitlogo.png" alt="Imagem 1" width="150">
-</a>
-<p align="center">GitHub</p>
-<div style="text-align: center;">
-<a href="https://aws.amazon.com/pt/free/?gclid=CjwKCAiA5eC9BhAuEiwA3CKwQsytSBv49STV2-ahvpmVMcsc3Gl4w00hDk-OgJ3rqEkadRx3zgLCuRoCraQQAvD_BwE&trk=2ee11bb2-bc40-4546-9852-2c4ad8e8f646&sc_channel=ps&ef_id=CjwKCAiA5eC9BhAuEiwA3CKwQsytSBv49STV2-ahvpmVMcsc3Gl4w00hDk-OgJ3rqEkadRx3zgLCuRoCraQQAvD_BwE:G:s&s_kwcid=AL!4422!3!561843094926!e!!g!!amazon%20web%20services!15278604629!130587771580&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all">
-<img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/amazonlogo.png" alt="Imagem 1" width="150">
-</a>
-<p align="center">Amazon Web Service</p>
+<div align="center">
+  <br>
+  <a href="https://github.com/">
+    <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/gitlogo.png" alt="GitHub" width="150">
+  </a>&ensp;
+  <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjKuL74ltWLAxXoEUQIHY40KqwYABAAGgJkeg&co=1&ase=2&gclid=CjwKCAiA5eC9BhAuEiwA3CKwQp-uZ-EhfKVs_yaTVCZmvhF8olLyCz4sF_rQXc-KTkKjJ6zjkq_KbRoCmx0QAvD_BwE&ei=46i4Z7zJLbLb5OUP_NnOYQ&ohost=www.google.com&cid=CAESVeD2mSl7f0Xe0yyJImaMygYDsAuUvVqE8TXk7HbEuO8df6HhHkyj13nbeuQIUd6NDilzCovM3hpvmJWnXIKlBj1rDcr0Uva9DVYGZCTyi2T-YG-tn0A&sig=AOD64_3dqO5hHHx21zCm5ROWF8TSPV62pA&q&sqi=2&nis=4&adurl&ved=2ahUKEwj8xrT4ltWLAxWyLbkGHfysMwwQ0Qx6BAgIEAE">
+    <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/amazonlogo.png" alt="Amazon Web Services
+" width="150">
+  </a>&ensp;
+  <a href="https://github.com/Daijinpala/projeto_1/tree/main/Intalar%26configurar_ngnix">
+    <img src="caminho/para/imagem3.png" alt="Configuração do Servidor" width="150">
+  </a>&ensp;
+  <a href="https://github.com/Daijinpala/projeto_1/tree/main/script_monitoramento">
+    <img src="caminho/para/imagem4.png" alt="Monitoramento e Notificações" width="150">
+  </a>&ensp;
+  <a href="https://github.com/Daijinpala/projeto_1/tree/main/testar%26validar">
+    <img src="caminho/para/imagem5.png" alt="Automação e Testes" width="150">
+  </a>&ensp;
+  <a href="https://github.com/Daijinpala/projeto_1/tree/main/Bonus">
+    <img src="caminho/para/imagem6.png" alt="Bonus" width="150">
+  </a>&ensp;
+  <br>
 </div>
 
 
