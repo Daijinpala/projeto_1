@@ -225,6 +225,10 @@ na AWS.</li>
 </div>
 <br><br>
 
+::: warning
+[!] As unicas aplicações especificas que se pede a utilização no projeto é o GitHub e o Amazon Web Services, as outras foram questão de preferencia!
+:::
+
 >[!IMPORTANT]
 >As unicas aplicações especificas que se pede a utilização no projeto é o GitHub e o Amazon Web Services, as outras foram questão de preferencia!
 
