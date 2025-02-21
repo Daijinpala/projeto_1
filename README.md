@@ -267,45 +267,6 @@ na AWS.</li>
   <a href="https://github.com/Daijinpala/projeto_1/tree/main/Bonus"><kbd> <br>Bonus<br> </kbd></a>&ensp;
 <br>
 
-<br>
-
-## Sites utilizados como referencia:
-
-> Básico shell: https://diegomariano.com/shell-script-um-guia-basico/<p></p>
-
-> GODSCRIPT: https://devhints.io/bash<p></p>
-
->Discord Webhooks: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
-
->Fontes de letra: https://www.futuraexpress.com.br/blog/fontes-de-letras-diferentes/
-
->Solução de problemas: https://stackexchange.com/
-
->Exportação da fonte:  https://fonts.google.com/ 
-
-<p align="center">O projeto inteiro está zipado, abrir com o obsidian para ter uma melhor vizualização!</p>
-</font>
-
-<h2 align="center">Integrantes:</h2>
-
-<font face="Ballet" style="color: #9400D3;">
-<footer>
-<p style = 'font-size:60px'>
-Flávio Cavalcante
-<br>
-Bruno Bacchi
-<br>
-Afonso Luiz
-<br>
-</p>
-</footer>
-</font>
-```
-
-</details>
-
-<br>
-
 ## Sites utilizados como referencia:
 
 >Básico shell: https://diegomariano.com/shell-script-um-guia-basico/<br>
