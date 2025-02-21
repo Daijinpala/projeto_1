@@ -225,7 +225,9 @@ na AWS.</li>
     <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/nginxlogo.png" alt="Nginx" width="150" height = "150">
   </a>&ensp;
 </div>
-<br><br>
+<br>
+<hr>
+<br>
 
 > [!IMPORTANT]
 > As únicas aplicações específicas que se pede a utilização no projeto são o **GitHub** e o **Amazon Web Services**. As outras foram questão de preferência!
@@ -252,6 +254,8 @@ na AWS.</li>
     <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/marklogo.png" alt="Markdown" width="150" height = "150">
   </a>&ensp;
 </diV>
+<hr>
+<br>
 
 > [!IMPORTANT]
 > Você pode utilizar a linguagem python ao invés de bash. 
