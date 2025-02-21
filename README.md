@@ -190,6 +190,32 @@ na AWS.</li>
 </div>
 </div>
 </details>
+<br>
+
+# Aplicações utilizadas
+
+
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+<div style="text-align: center;">
+<a href="https://github.com/">
+<img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/gitlogo.png" alt="Imagem 1" width="100">
+</a>
+<p>GitHub</p>
+</div>
+
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+<div style="text-align: center;">
+<a href="https://aws.amazon.com/pt/free/?gclid=CjwKCAiA5eC9BhAuEiwA3CKwQsytSBv49STV2-ahvpmVMcsc3Gl4w00hDk-OgJ3rqEkadRx3zgLCuRoCraQQAvD_BwE&trk=2ee11bb2-bc40-4546-9852-2c4ad8e8f646&sc_channel=ps&ef_id=CjwKCAiA5eC9BhAuEiwA3CKwQsytSBv49STV2-ahvpmVMcsc3Gl4w00hDk-OgJ3rqEkadRx3zgLCuRoCraQQAvD_BwE:G:s&s_kwcid=AL!4422!3!561843094926!e!!g!!amazon%20web%20services!15278604629!130587771580&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all">
+<img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/amazonlogo.png" alt="Imagem 1" width="100">
+</a>
+<p>Amazon Web Service</p>
+</div>
+
+
+# Linguagens utilizadas
+
+
+
 
 ## Resolução:
 <div>
