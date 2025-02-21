@@ -280,6 +280,8 @@ na AWS.</li>
   <a href="https://github.com/Daijinpala/projeto_1/tree/main/Bonus"><kbd> <br>Bonus<br> </kbd></a>&ensp;
 <br>
 </div>
+<br>
+<hr>
 
 > [!NOTE]
 > Cada botão te levará para a resolução de uma determinada parte do projeto de mesmo nome! 
@@ -300,9 +302,8 @@ na AWS.</li>
 </font>
 
 <h2 align="center">Integrantes:</h2>
-
 <font face="Ballet" style="color: #9400D3;">
-<footer>
+<footer align="center">
 <p style = 'font-size:60px'>
 <br>
 Afonso Luiz
