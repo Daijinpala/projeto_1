@@ -252,6 +252,12 @@ na AWS.</li>
     <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/marklogo.png" alt="Markdown" width="150" height = "150">
   </a>&ensp;
 
+> [!IMPORTANT]
+> Você pode utilizar a linguagem python ao invés de bash. 
+
+> [!TIP]
+> - **Bash:** Bash é uma linguagem de script e um interpretador de comandos.
+> - **Markdown:** Markdown é uma linguagem de marcação leve.
 
  <br>
 </div>
