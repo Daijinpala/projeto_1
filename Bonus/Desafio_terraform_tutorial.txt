@@ -25,4 +25,4 @@ após criar uma pasta e dentro dela criar meu primeiro arquivo(criei um arquivo 
 
 terraform init
 
-ele criou um arquivo dentro da pasta que não é necessario.
+ele criou um arquivo dentro da pasta que é necessario.
