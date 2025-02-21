@@ -193,7 +193,7 @@ na AWS.</li>
 <br>
 
 # Aplicações utilizadas
-<h2>Github,Amazon Web Services,Microsoft Store,WSL,Visual Studio Code,Nginx</h2>
+<h2>Github, Amazon Web Services, Microsoft Store, WSL, Visual Studio Code, Nginx.</h2>
 
 <div align="center">
   <br>
