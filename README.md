@@ -305,13 +305,12 @@ na AWS.</li>
 <font face="Ballet" style="color: #9400D3;">
 <footer>
 <p style = 'font-size:60px'>
-<br>
+
 <p align="center">Afonso Luiz</p>
-<br>
+
 <p align="center">Bruno Bacchi</p>
-<br>
+
 <p align="center">Flávio Cavalcante</p>
-<br>
 </p>
 </footer>
 </font>
