@@ -194,6 +194,7 @@ na AWS.</li>
 </details>
 <hr>
 <br><br>
+
 ## Aplicações utilizadas: 
 <h3>Github, Amazon Web Services, Microsoft Store, WSL, Visual Studio Code, Nginx.</h3>
 
