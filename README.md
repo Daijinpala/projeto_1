@@ -252,6 +252,7 @@ na AWS.</li>
     <img src="https://github.com/Daijinpala/projeto_1/blob/main/logo/marklogo.png" alt="Markdown" width="150" height = "150">
   </a>&ensp;
 </diV>
+
 > [!IMPORTANT]
 > Você pode utilizar a linguagem python ao invés de bash. 
 
