@@ -263,30 +263,30 @@ sudo cat << EOF > $MONITOR_SCRIPT
 #!/bin/bash
 
 # Configurações
-SITE_URL="http://$PUBLIC_IPV4/"  # Usa o IPv4 público da instância EC2
-LOG_FILE="/var/log/monitoramento.log"  # Arquivo de logs
-DISCORD_WEBHOOK="https://discord.com/api/webhooks/1339668365723046040/z-g8k_ZO3_eErqlzNyADSLvi3K0-INRQuCMO4vDx3X3DoEJkYdYOgi1NDUzLmRHXB8UB"  # Webhook do Discord
+SITE_URL="http://localhost:80"  # Especificando a porta 80 explicitamente
+LOG_FILE="/var/log/monitoramento.log"
+DISCORD_WEBHOOK="https://discord.com/api/webhooks/1339668365723046040/z-g8k_ZO3_eErqlzNyADSLvi3K0-INRQuCMO4vDx3X3DoEJkYdYOgi1NDUzLmRHXB8UB"
 
 # Registrar os logs
 log() {
-    local message="\$1"
-    echo "\$(date '+%Y-%m-%d %H:%M:%S') - \$message" >> "\$LOG_FILE"
+    local message="$1"
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - $message" >> "$LOG_FILE"
 }
 
 # Enviar a notificação no Discord
 notificar_discord() {
-    local message="\$1"
-    curl -H "Content-Type: application/json" -X POST -d "{\\\"content\\\": \\\"\$message\\\"}" "\$DISCORD_WEBHOOK"
+    local message="$1"
+    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"$message\"}" "$DISCORD_WEBHOOK"
 }
 
 # Verifica se o site está disponível
-response=\$(curl -o /dev/null -s -w "%{http_code}" "\$SITE_URL")
+response=$(curl -o /dev/null -s -w "%{http_code}" "$SITE_URL")
 
-if [[ "\$response" -eq 200 ]]; then
-    log "Site \$SITE_URL está online. Código de resposta: \$response"
+if [[ "$response" -eq 200 ]]; then
+    log "Site $SITE_URL está online. Código de resposta: $response"
 else
-    log "Site \$SITE_URL está offline. Código de resposta: \$response"
-    notificar_discord "🚨 ALERTA: O site \$SITE_URL está offline! Código de resposta: \$response"
+    log "Site $SITE_URL está offline. Código de resposta: $response"
+    notificar_discord "🚨 ALERTA: O site $SITE_URL está offline! Código de resposta: $response"
 fi
 EOF
 
