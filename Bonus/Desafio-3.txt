@@ -1,0 +1,24 @@
+criei uma role (no IAM) que ela da permissão total para que a ec2 mande os arquivos para o cloudWatch.
+
+criei uma ec2 e atribui a ela a role criada anteriormente.
+
+agora dentro da ec2 que criamos:
+
+Arquivo .sh execute e ele baixar todos pacotes e suas dependências para que possamos enviar as estatísticas para o cloudWatch
+
+bootstrap.sh
+
+para fazer uma validação(se está funcionando corretamente):
+
+./mon-put-instance-data.pl --mem-util --verify --verbose
+
+após fazer a verificação agora mandaremos para o cloudwatch a memória utilizada e a disponível
+
+./mon-put-instance-data.pl --mem-util --mem-avail --mem-used
+
+Para testar se o alarme está funcionando: 
+
+aws cloudwatch set-alarm-state --alarm-name "nome do alarme que criamos" --state-value ALARM --state-reason "motivo do teste"
+
+teste
+sudo systemctl stop nginx
