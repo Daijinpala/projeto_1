@@ -16,7 +16,7 @@ priority=9
 EOF
 
 #comando para baixar o crontab na AMI do linux (não vem instalado por padrão)
-sudo yum install cronie
+sudo yum install cronie -y
 sudo systemctl start crond
 sudo systemctl enable crond
 
