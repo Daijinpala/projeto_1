@@ -1,7 +1,4 @@
 #!/bin/bash
-# Aula: Userdata EC2
-# Treinamento: AWS, na prática
-# Plataforma: Udemy
 
 # Configuração do repositório do Nginx
 sudo cat << 'EOF' >> /etc/yum.repos.d/nginx.repo
@@ -15,23 +12,24 @@ module_hotfixes=true
 priority=9
 EOF
 
-#comando para baixar o crontab na AMI do linux (não vem instalado por padrão)
+# Instalar o cron
 sudo yum install cronie -y
 sudo systemctl start crond
 sudo systemctl enable crond
 
-#comandos para a realização do desafio 3
-yum update -y
+# Atualizar o sistema e instalar dependências
+sudo yum update -y
 sudo yum install perl-Sys-Hostname -y
 sudo yum install -y perl-Switch perl-DateTime perl-Sys-Syslog perl-LWP-Protocol-https perl-Digest-SHA.x86_64
+
+# Baixar e configurar o script de monitoramento do CloudWatch
 cd /home/ec2-user/
 curl https://aws-cloudwatch.s3.amazonaws.com/downloads/CloudWatchMonitoringScripts-1.2.2.zip -O
 unzip CloudWatchMonitoringScripts-1.2.2.zip
 rm -rf CloudWatchMonitoringScripts-1.2.2.zip
 
-
-# Atualizar o sistema e instalar o Nginx
-sudo yum update -y && sudo yum install nginx -y
+# Instalar o Nginx
+sudo yum install nginx -y
 
 # Criar arquivo HTML de exemplo
 sudo cat << 'EOF' > /usr/share/nginx/html/index.html
@@ -249,15 +247,6 @@ sudo systemctl enable nginx --now
 # Script de Monitoramento
 MONITOR_SCRIPT="/usr/local/bin/monitor.sh"
 
-# Obter o IPv4 público da instância EC2
-PUBLIC_IPV4=$(curl -s http://169.254.169.254/latest/meta-data/public-ipv4)
-
-# Verificar se o IP foi obtido com sucesso
-if [ -z "$PUBLIC_IPV4" ]; then
-    echo "Erro: Não foi possível obter o IPv4 público da instância."
-    exit 1
-fi
-
 # Criar o script de monitoramento
 sudo cat << EOF > $MONITOR_SCRIPT
 #!/bin/bash
@@ -296,9 +285,8 @@ sudo chmod +x $MONITOR_SCRIPT
 # Configurar o crontab para executar o script de monitoramento a cada 1 minuto
 (crontab -l 2>/dev/null; echo "* * * * * $MONITOR_SCRIPT") | crontab -
 
-#Configurar para que o crontab envie automaticamente os dados de memória para o cloudwatch a cada 1 minuto
-(crontab -l 2>/dev/null; echo "* * * * * root /home/ec2-user/aws-scripts-mon/mon-put-instance-data.pl --mem-util --mem-used --mem-avail") | crontab -
+# Configurar o crontab para enviar dados de memória para o CloudWatch a cada 1 minuto
+(crontab -l 2>/dev/null; echo "* * * * * /home/ec2-user/aws-scripts-mon/mon-put-instance-data.pl --mem-util --mem-used --mem-avail") | crontab -
 
 # Mensagem final
 echo "Configuração concluída! O Nginx está instalado e o monitoramento está ativo."
-echo "O site está sendo monitorado no endereço: http://$PUBLIC_IPV4/"
