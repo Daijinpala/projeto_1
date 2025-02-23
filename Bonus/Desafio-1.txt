@@ -15,6 +15,21 @@ module_hotfixes=true
 priority=9
 EOF
 
+#comando para baixar o crontab na AMI do linux (não vem instalado por padrão)
+sudo yum install cronie
+sudo systemctl start crond
+sudo systemctl enable crond
+
+#comandos para a realização do desafio 3
+yum update -y
+sudo yum install perl-Sys-Hostname -y
+sudo yum install -y perl-Switch perl-DateTime perl-Sys-Syslog perl-LWP-Protocol-https perl-Digest-SHA.x86_64
+cd /home/ec2-user/
+curl https://aws-cloudwatch.s3.amazonaws.com/downloads/CloudWatchMonitoringScripts-1.2.2.zip -O
+unzip CloudWatchMonitoringScripts-1.2.2.zip
+rm -rf CloudWatchMonitoringScripts-1.2.2.zip
+
+
 # Atualizar o sistema e instalar o Nginx
 sudo yum update -y && sudo yum install nginx -y
 
@@ -250,7 +265,7 @@ sudo cat << EOF > $MONITOR_SCRIPT
 # Configurações
 SITE_URL="http://$PUBLIC_IPV4/"  # Usa o IPv4 público da instância EC2
 LOG_FILE="/var/log/monitoramento.log"  # Arquivo de logs
-DISCORD_WEBHOOK="https://discord.com/api/webhooks/1338985520595865651/Y1bsJG0np_eZU1GBCVqn_knbABENvro1y5Zn3Ze8xSQ_koX5SaXPzyChVNzPo3rvgZBZ"  # Webhook do Discord
+DISCORD_WEBHOOK="https://discord.com/api/webhooks/1339668365723046040/z-g8k_ZO3_eErqlzNyADSLvi3K0-INRQuCMO4vDx3X3DoEJkYdYOgi1NDUzLmRHXB8UB"  # Webhook do Discord
 
 # Registrar os logs
 log() {
@@ -280,6 +295,9 @@ sudo chmod +x $MONITOR_SCRIPT
 
 # Configurar o crontab para executar o script de monitoramento a cada 1 minuto
 (crontab -l 2>/dev/null; echo "* * * * * $MONITOR_SCRIPT") | crontab -
+
+#Configurar para que o crontab envie automaticamente os dados de memória para o cloudwatch a cada 1 minuto
+(crontab -l 2>/dev/null; echo "* * * * * root /home/ec2-user/aws-scripts-mon/mon-put-instance-data.pl --mem-util --mem-used --mem-avail") | crontab -
 
 # Mensagem final
 echo "Configuração concluída! O Nginx está instalado e o monitoramento está ativo."
