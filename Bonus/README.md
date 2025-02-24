@@ -1,8 +1,8 @@
 # Desafios Bônus
 
-## Automação com User Data
+## 1 -  Automação com User Data
 
-### 1 - Configurar a EC2 para já iniciar com Nginx, HTML e script de monitoramento via User Data.
+### Configurar a EC2 para já iniciar com Nginx, HTML e script de monitoramento via User Data.
 
 1) Ao criar uma intancia Ec2 Colocar o bash no campo do user data.
 
@@ -135,9 +135,9 @@ echo "Configuração concluída! O Nginx está instalado e o monitoramento está
 > [!IMPORTANT]
 > <hr>Foi criado com base no script disponibilizado pelo professor: Aula 46. Preparação do laboratório sobre Application Load Balancer (ALB).<hr>Curso Udemy: AWS, na prática!<br>Seção 3: AMAZON EC2
 
-## Criação de um template CloudFormation ou Terraform:
+## 2 - Criação de um template CloudFormation ou Terraform:
 
-### 2 - Criar um arquivo YAML do CloudFormation que provisiona toda a infraestrutura automaticamente.
+### Criar um arquivo YAML do CloudFormation que provisiona toda a infraestrutura automaticamente.
 
 > [!NOTE]
 > Estou utilizando o Windows 11 com o wsl rodando, e estou utilizando o terminal do vscode!!!.
@@ -188,9 +188,9 @@ Caminho para a aplicação do script (main.tf):
 3- terraform apply
 ```
 
-## Monitoramento avançado
+## 3 - Monitoramento avançado
 
-### 3 - Enviar estatísticas para CloudWatch e configurar alarmas na AWS.
+### Enviar estatísticas para CloudWatch e configurar alarmas na AWS.
 
 1) Criei uma role (no IAM) que ela da permissão total para que a ec2 mande os arquivos para o cloudWatch.
 
