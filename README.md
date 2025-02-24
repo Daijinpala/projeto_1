@@ -167,6 +167,8 @@ Este projeto tem como objetivo configurar um servidor web na AWS utilizando Ngin
   <a href="https://github.com/Daijinpala/projeto_1/tree/main/Bonus"><kbd> <br>Bonus<br> </kbd></a>&ensp;
   <br>
 </div>
+<br>
+<br>
 
 > [!NOTE]
 > Cada botão te levará para a resolução de uma determinada parte do projeto de mesmo nome!
