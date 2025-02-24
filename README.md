@@ -152,7 +152,6 @@ Este projeto tem como objetivo configurar um servidor web na AWS utilizando Ngin
    - Criar um arquivo YAML do CloudFormation que provisiona toda a infraestrutura automaticamente.
 3. Monitoramento avançado:
    - Enviar estatísticas para CloudWatch e configurar alarmas na AWS.
----
 
 ---
 ## Resolução:
