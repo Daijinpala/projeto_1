@@ -187,7 +187,7 @@ Este projeto tem como objetivo configurar um servidor web na AWS utilizando Ngin
 - Comando curl(base): https://www.hostinger.com.br/tutoriais/comando-curl-linux
 - Sintaxe GitHub(base): https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
-<p align="center">O projeto inteiro está zipado, abrir com o Obsidian para ter uma melhor visualização!</p>
+<p align="center">O projeto inteiro está zipado, abrir com o Obsidian para ter uma melhor visualização!(Falta att.)</p>
 
 ---
 
