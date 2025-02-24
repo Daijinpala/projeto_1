@@ -167,11 +167,11 @@ sudo apt update && sudo apt install terraform**
 
 **sudo mv terraform /usr/local/bin/**
 
-5) Após isso criei um usuário no console da aws chamado "unlucky" atribui o acesso de admin a ele e criei uma chave de acesso, baixei o csv pra prevenir possíveis dores de cabeça
+5) Criei um usuário no console da aws chamado "unlucky" atribui o acesso de admin a ele e criei uma chave de acesso, baixei o csv pra prevenir possíveis dores de cabeça
 
 6) Abri o console da minha wsl e configurei o acesso dá aws.
 
-7) Após isso, abri o site **terraform.io**.
+7) Abri o site **terraform.io**.
 
 8) Fui em registry cliquei na aws.
 
