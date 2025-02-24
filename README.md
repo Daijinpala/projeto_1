@@ -71,8 +71,9 @@ Este projeto tem como objetivo configurar um servidor web na AWS utilizando Ngin
 > - **Markdown:** É uma linguagem de marcação leve.
 
 ---
-
-## Projeto:
+<div>
+<details align="left">
+    <summary style="color: #9400D3;">Projeto::</summary>
 
 ### Parte teórica
 
@@ -152,7 +153,8 @@ Este projeto tem como objetivo configurar um servidor web na AWS utilizando Ngin
    - Criar um arquivo YAML do CloudFormation que provisiona toda a infraestrutura automaticamente.
 3. Monitoramento avançado:
    - Enviar estatísticas para CloudWatch e configurar alarmas na AWS.
-
+</details>
+</div>
 ---
 ## Resolução:
 
