@@ -177,7 +177,7 @@ sudo apt update && sudo apt install terraform**
 
 9) Selecionei os documentos desejados.
 
-10) Alterei o documento comforme a documentação pedia.
+10) Alterei o documento conforme a documentação pedia.
 
 11) Com a documentação aberta criei um arquivo chamado main.tf e é nele que criaremos toda a infraestrutura de TI.
 
