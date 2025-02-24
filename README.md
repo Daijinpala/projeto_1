@@ -155,7 +155,6 @@ Este projeto tem como objetivo configurar um servidor web na AWS utilizando Ngin
    - Enviar estatísticas para CloudWatch e configurar alarmas na AWS.
 </details>
 </div>
----
 
 ## Resolução:
 
