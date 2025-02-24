@@ -206,7 +206,7 @@ resource "aws_vpc" "teste" {
 Como ficou o comando **terraform plan**:
 
 ```
-daiji@C3PO:~/terraform-aws$ terraform apply
+daiji@C3PO:~/terraform-aws$ terraform plan
 
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
   + create
