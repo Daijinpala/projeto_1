@@ -154,7 +154,7 @@ unzip awscliv2.zip
 sudo ./aws/install**
 
 > [!CAUTION]
-> Após instalar o aws cli conficgura-lo com o comando: **aws configure** (após digitar o comando é só colocar a acess key e a secret do usuário que criou anteriormente (no meu caso o nome era terraform) e por fim na configuração colocar a zona us-east-1)
+> Após instalar o aws cli configurá-lo com o comando: **aws configure** (após digitar o comando é só colocar a acess key e a secret do usuário que criou anteriormente (no meu caso o nome era terraform) e por fim na configuração colocar a zona us-east-1)
 
 
 3) Baixei o terraform via linha de comando(no site principal deles te disponibilizam o link)
