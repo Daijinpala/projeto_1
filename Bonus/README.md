@@ -2,7 +2,7 @@
 
 ## Automação com User Data
 
-### Configurar a EC2 para já iniciar com Nginx, HTML e script de monitoramento via User Data.
+### 1 - Configurar a EC2 para já iniciar com Nginx, HTML e script de monitoramento via User Data.
 
 1) Ao criar uma intancia Ec2 Colocar o bash no campo do user data.
 
@@ -137,7 +137,7 @@ echo "Configuração concluída! O Nginx está instalado e o monitoramento está
 
 ## Criação de um template CloudFormation ou Terraform:
 
-### Criar um arquivo YAML do CloudFormation que provisiona toda a infraestrutura automaticamente.
+### 2 - Criar um arquivo YAML do CloudFormation que provisiona toda a infraestrutura automaticamente.
 
 > [!NOTE]
 > Estou utilizando o Windows 11 com o wsl rodando, e estou utilizando o terminal do vscode!!!.
@@ -190,7 +190,7 @@ Caminho para a aplicação do script (main.tf):
 
 ## Monitoramento avançado
 
-### Enviar estatísticas para CloudWatch e configurar alarmas na AWS.
+### 3 - Enviar estatísticas para CloudWatch e configurar alarmas na AWS.
 
 1) Criei uma role (no IAM) que ela da permissão total para que a ec2 mande os arquivos para o cloudWatch.
 
