@@ -153,6 +153,12 @@ echo "Configuração concluída! O Nginx está instalado e o monitoramento está
 unzip awscliv2.zip
 sudo ./aws/install**
 
+ou
+
+**wget https://releases.hashicorp.com/terraform/1.10.5/terraform_1.10.5_linux_amd64.zip**
+**unzip terraform_1.10.5_linux_amd64.zip**
+**sudo mv terraform /usr/local/bin/**
+
 > [!CAUTION]
 > Após instalar o aws cli configurá-lo com o comando: **aws configure** (após digitar o comando é só colocar a acess key e a secret do usuário que criou anteriormente (no meu caso o nome era terraform) e por fim na configuração colocar a zona us-east-1)
 
