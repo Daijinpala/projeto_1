@@ -4,8 +4,6 @@ Este projeto tem como objetivo configurar um servidor web na AWS utilizando Ngin
 
 ---
 
----
-
 ## Aplicações utilizadas:
 
 ### GitHub, Amazon Web Services, Microsoft Store, WSL, Visual Studio Code, Nginx.
