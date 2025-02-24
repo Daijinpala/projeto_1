@@ -165,9 +165,9 @@ sudo apt update && sudo apt install terraform**
 
 ou
 
-**wget https://releases.hashicorp.com/terraform/1.10.5/terraform_1.10.5_linux_amd64.zip**
-**unzip terraform_1.10.5_linux_amd64.zip**
-**sudo mv terraform /usr/local/bin/**
+**wget https://releases.hashicorp.com/terraform/1.10.5/terraform_1.10.5_linux_amd64.zip**<br>
+**unzip terraform_1.10.5_linux_amd64.zip**<br>
+**sudo mv terraform /usr/local/bin/** <br>
 
 4) É necessario mover o binário para o path
 
