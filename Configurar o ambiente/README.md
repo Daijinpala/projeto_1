@@ -27,6 +27,10 @@ futuras expansões).</li>
 
 ![criação_vpc](1.png)
 
+<h6>Criar um SG (security group) para a vpc: </h6>
+
+![criação_sg](csg.png)
+
 <h6>Criar uma instância EC2 na AWS:</h6>
 
 <div>
