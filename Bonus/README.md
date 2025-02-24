@@ -163,19 +163,100 @@ sudo ./aws/install**
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update && sudo apt install terraform**
 
-4) Após isso criei um usuário no console da aws chamado "terraform" atribui o acesso de admin a ele e criei uma chave de acesso, baixei o csv pra prevenir possíveis dores de cabeça
+4) É necessario mover o binário para o path
 
-5) Abri o console da minha wsl e configurei o acesso dá aws.
+**sudo mv terraform /usr/local/bin/**
 
-6) Após isso, abri o site **terraform.io**.
+5) Após isso criei um usuário no console da aws chamado "unlucky" atribui o acesso de admin a ele e criei uma chave de acesso, baixei o csv pra prevenir possíveis dores de cabeça
 
-7) Fui em registry cliquei na aws.
+6) Abri o console da minha wsl e configurei o acesso dá aws.
 
-8) Selecionei os documentos desejados.
+7) Após isso, abri o site **terraform.io**.
 
-9) Alterei o documento comforme a documentação pedia.
+8) Fui em registry cliquei na aws.
 
-10) Com a documentação aberta criei um arquivo chamado main.tf e é nele que criaremos toda a infraestrutura de TI. 
+9) Selecionei os documentos desejados.
+
+10) Alterei o documento comforme a documentação pedia.
+
+11) Com a documentação aberta criei um arquivo chamado main.tf e é nele que criaremos toda a infraestrutura de TI.
+
+12) Antes de tudo dentro da pasta aonde está o main.tf dar o comando **terraform init**
+
+Meu main.tf:
+```
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+}
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_vpc" "teste" {
+  cidr_block = "10.0.0.0/16"
+}
+```
+
+Como ficou o comando **terraform plan**:
+
+```
+daiji@C3PO:~/terraform-aws$ terraform apply
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # aws_vpc.teste will be created
+  + resource "aws_vpc" "teste" {
+      + arn                                  = (known after apply)
+      + cidr_block                           = "10.0.0.0/16"
+      + default_network_acl_id               = (known after apply)
+      + default_route_table_id               = (known after apply)
+      + default_security_group_id            = (known after apply)
+      + dhcp_options_id                      = (known after apply)
+      + enable_dns_hostnames                 = (known after apply)
+      + enable_dns_support                   = true
+      + enable_network_address_usage_metrics = (known after apply)
+      + id                                   = (known after apply)
+      + instance_tenancy                     = "default"
+      + ipv6_association_id                  = (known after apply)
+      + ipv6_cidr_block                      = (known after apply)
+      + ipv6_cidr_block_network_border_group = (known after apply)
+      + main_route_table_id                  = (known after apply)
+      + owner_id                             = (known after apply)
+      + tags_all                             = (known after apply)
+    }
+
+Plan: 1 to add, 0 to change, 0 to destroy.
+```
+
+O erro ao dar o comando **terraform apply**:
+
+```
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+aws_vpc.teste: Creating...
+╷
+│ Error: creating EC2 VPC: operation error EC2: CreateVpc, https response error StatusCode: 403, RequestID: f229ac54-b6bc-4657-bad0-1e2cf5ee78bf, api error UnauthorizedOperation: You are not authorized to perform this operation. User: arn:aws:iam::536697251699:user/unlucky is not authorized to perform: ec2:CreateVpc on resource: arn:aws:ec2:us-east-1:536697251699:vpc/* with an explicit deny in a service control policy. Encoded authorization failure message: VQCI9lziGWYyHfek3r2X49CAgXqFOJ5u2LFkvZe9q74osoMa8QwAJU_KBEUH0Xe1_7j5FjdcK34VlfOA95pNYv7EwjOAJuUiIcJDowOgFEne55sijR7QIVWUv983URv7ODyDNkQXRqs-jrxZLkxo0eCtsOQJ7jPmRfQ0ccT9PgpzyFx60PzUppzT82lrDcQ3cDdApSTd9PAPcJDN-LDnBytyVwTXNcujwXAjg-h8oS9Jt1pe7gc9z9enp6Ff0Uoe_Q0SKoYvUYJn_hdBjrB0fE8ToNI1mYe7758qywZHtLaoWmkET_xYX7RKBxTUMOXTgK3xMUW0DSR6hYj2Izkulthq7d1qfN6uNsfjdslh9f0i1p-K1NTZ6vIhdzJUPtAvJ31JDo20mrPgi3IJ_8WdIeDdKEIuz9IE6wPQDclSflp1ll21D3S1hMYHoVrg5vG_lydA5NAEu0UhRNaWUxivOYdNqbhWkHsNKxSx4SnZexv83Oq4z8leuP24s367aRLJrwrYUXzc8nvmVLYUbQCtq2gMVRo0ZvkMG4DvXOmAIK3snY7cYIp_14H99qJCkCWDH1CTXHPpV6M0MhHqzJnPkdxhPgZ7aKr6xW_fv4qAozwYU5xQvPEE7_G3-BBHnDPCLqQ-DHwq6zzMWryUDpciN4ZZOzHNgDmCzJsHttR_69HS5q-F2pLeTmNDuOfgq2mMcMfMKVeSuH8wh8KEBGsDLIeFyKAIuWvJ-RMq_QWTlfCufmtzVTTUYTftbz1p5VmkMDmLOnwiYCk3GJNu0HWMb6VdEkk
+│ 
+│   with aws_vpc.teste,
+│   on main.tf line 14, in resource "aws_vpc" "teste":
+│   14: resource "aws_vpc" "teste" {
+│ 
+╵
+```
+
 
 > [!CAUTION]
 > Sempre que for criar uma infra no terraform, ir criando e testando um recurso apenas, e depois juntar todos eles no final.
