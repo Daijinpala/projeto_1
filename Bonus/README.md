@@ -190,7 +190,7 @@ Caminho para a aplicação do script (main.tf):
 
 ## 3 - Monitoramento avançado
 
-### Enviar estatísticas para CloudWatch e configurar alarmas na AWS.
+### Enviar estatísticas para CloudWatch e configurar alarmes na AWS.
 
 1) Criei uma role (no IAM) que ela da permissão total para que a ec2 mande os arquivos para o cloudWatch.
 
